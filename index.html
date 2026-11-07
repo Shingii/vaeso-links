@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>vaeso</title>
+  <meta name="description" content="Listen to vaeso everywhere.">
+  <meta property="og:title" content="vaeso">
+  <meta property="og:description" content="Listen to vaeso everywhere.">
+  <meta property="og:type" content="website">
+  <!-- When you know your final address, add an og:image so shared links show artwork:
+       <meta property="og:image" content="https://shingii.github.io/vaeso-links/cover.jpg"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1><img class="logo" id="logo" src="/logo.png" alt="vaeso"></h1>
+    <p class="tag" id="tagline"></p>
+
+    <section class="release" id="release" hidden>
+      <img class="cover" id="cover" alt="">
+      <h2 id="rTitle"></h2>
+      <p id="rMeta"></p>
+      <div>
+        <a class="btn" id="rListen" target="_blank" rel="noopener">Listen now</a>
+        <a class="btn alt" id="rPresave" target="_blank" rel="noopener" hidden>Pre-save</a>
+      </div>
+    </section>
+
+    <ul id="links"></ul>
+    <footer id="foot"></footer>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
