@@ -2,8 +2,7 @@
 // Order of the links here is the order on the page.
 export const SITE = {
   name: 'vaeso',
-  tagline: 'My music, all in one place.',
-
+  tagline: "Music for when it's late",
   // Featured release card. Set to null to hide it.
   release: {
     title: 'Days Get Shorter, Money Getting Longer.,
