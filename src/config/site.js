@@ -16,8 +16,8 @@ export const SITE = {
   links: [
     { label: 'Spotify',   url: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129' },
     { label: 'YouTube',   url: 'https://youtube.com/vaeso' },
-    { label: 'Instagram', url: 'https://instagram.com/vaeso.wav' }
-
+    { label: 'Instagram', url: 'https://instagram.com/vaeso.wav' },
+    { label: 'Soundcloud', url:'https://soundcloud.com/vaeso' }
     // Add these when you have the links. Remove the // at the start of each line:
     // { label: 'Apple Music',       url: 'https://music.apple.com/...' },
     // { label: 'TikTok',            url: 'https://tiktok.com/@...' },
