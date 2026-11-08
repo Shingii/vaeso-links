@@ -64,5 +64,8 @@ li + li { margin-top: 12px; }
 .link:hover { background: var(--glass-hover); border-color: #fff; }
 a:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
 footer { margin-top: 36px; color: var(--soft); font-size: 13px; }
-.btn.buy { display: block; margin: 14px auto 0; max-width: 280px; background: #ed7ba6; color: #0d1a8c; }
+.release > div { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.btn.alt { margin-left: 0; }
+.btn.buy { display: block; margin: 16px auto 0; max-width: 280px; background: #ed7ba6; color: #0d1a8c; }
 .btn.buy:hover { background: #f59bbd; }
+.btn { padding: 10px 18px; }
