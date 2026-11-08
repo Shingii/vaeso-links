@@ -10,7 +10,9 @@ export const SITE = {
     date: 'Out Nov 15th',        // or 'Out Dec 5'
     cover: 'cover.jpg',          // square image placed in the public/ folder
     listenUrl: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129',
-    presaveUrl: ''               // fill in to show a Pre-save button
+      presaveUrl: '',
+    buyUrl: 'https://https://payhip.com/b/r1BUn',  // paste your product link, or '' to hide
+    buyLabel: 'Buy and download', 
   },
 
   links: [
