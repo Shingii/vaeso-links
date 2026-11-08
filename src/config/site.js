@@ -9,20 +9,22 @@ export const SITE = {
     type: 'Single',              // Single, EP, Album
     date: 'Out Nov 15th',        // or 'Out Dec 5'
     cover: 'cover.jpg',          // square image placed in the public/ folder
+    video: 'clip.mp4',           // background clip, placed in the public/ folder
+    poster: 'clip-poster.jpg',   // still image shown while the clip loads
     listenUrl: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129',
     presaveUrl: '',
     buyUrl: 'https://payhip.com/b/r1BUn', // paste your product link, or '' to hide
-    buyLabel: 'Buy and download', 
+    buyLabel: 'Buy and download'
   },
 
   links: [
-    { label: 'Spotify',   url: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129' },
-    { label: 'YouTube',   url: 'https://youtube.com/vaeso' },
-    { label: 'Instagram', url: 'https://instagram.com/vaeso.wav' },
-    { label: 'Soundcloud', url:'https://soundcloud.com/vaeso' },
-    { label: 'Apple Music', url: 'https://music.apple.com/us/artist/vaeso/1063068982' }
+    { label: 'Spotify',     url: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129' },
+    { label: 'Apple Music', url: 'https://music.apple.com/us/artist/vaeso/1063068982' },
+    { label: 'YouTube',     url: 'https://youtube.com/vaeso' },
+    { label: 'Instagram',   url: 'https://instagram.com/vaeso.wav' },
+    { label: 'SoundCloud',  url: 'https://soundcloud.com/vaeso' }
+
     // Add these when you have the links. Remove the // at the start of each line:
-    // { label: 'Apple Music',       url: 'https://music.apple.com/...' },
     // { label: 'TikTok',            url: 'https://tiktok.com/@...' },
     // { label: 'Booking and press', url: 'mailto:you@example.com' }
   ],
