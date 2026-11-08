@@ -23,6 +23,16 @@ export function renderSite(SITE) {
       $('rPresave').href = r.presaveUrl;
       $('rPresave').hidden = false;
     }
+
+    if (r.buyUrl) {
+      const buy = document.createElement('a');
+      buy.className = 'btn buy';
+      buy.href = r.buyUrl;
+      buy.target = '_blank';
+      buy.rel = 'noopener';
+      buy.textContent = r.buyLabel || 'Buy and download';
+      $('release').appendChild(buy);
+    }
   }
 
   SITE.links.forEach((l) => {
