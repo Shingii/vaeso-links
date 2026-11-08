@@ -11,7 +11,7 @@ export const SITE = {
     cover: 'cover.jpg',          // square image placed in the public/ folder
     listenUrl: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129',
       presaveUrl: '',
-    buyUrl: 'https://https://payhip.com/b/r1BUn',  // paste your product link, or '' to hide
+    buyUrl: 'https://payhip.com/b/r1BUn',  // paste your product link, or '' to hide
     buyLabel: 'Buy and download', 
   },
 
