@@ -5,9 +5,9 @@ export const SITE = {
   tagline: "Music for when it's late",
   // Featured release card. Set to null to hide it.
   release: {
-    title: 'Days Get Shorter, Money Getting Longer.,
+    title: 'Days Get Shorter, Money Getting Longer.',
     type: 'Single',              // Single, EP, Album
-    date: 'Out Nov 15th',             // or 'Out Dec 5'
+    date: 'Out Nov 15th',        // or 'Out Dec 5'
     cover: 'cover.jpg',          // square image placed in the public/ folder
     listenUrl: 'https://open.spotify.com/artist/0V53snqRMNiEs2QepOv129',
     presaveUrl: ''               // fill in to show a Pre-save button
