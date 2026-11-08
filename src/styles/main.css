@@ -89,3 +89,4 @@ footer { margin-top: 36px; color: var(--soft); font-size: 13px; }
 .release.has-video > *:not(.card-video) { position: relative; z-index: 2; }
 .release.has-video .cover { display: none; }
 .release.has-video h2, .release.has-video p { text-shadow: 0 2px 12px rgba(0,0,0,.45); }
+
